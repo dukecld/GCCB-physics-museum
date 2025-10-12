@@ -11,7 +11,7 @@ if ps aux | grep -v 'grep' | grep -q 'jekyll serve'; then
 else
   echo "Jekyll is not running. Start jekyll"
   bundle exec jekyll serve --detach > /dev/null
-  sleep 2
+  sleep 0.1
   open http://127.0.0.1:4000
 fi
 
