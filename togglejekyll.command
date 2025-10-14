@@ -1,8 +1,8 @@
 #!/bin/zsh
 
 # For local development of CB museum site. 
-# toggles jekyll and Safari, starts and closes.
 
+#cd /Users/charlesduke/Github/GCCB-physics-museum
 # Check for a running Jekyll process
 if ps aux | grep -v 'grep' | grep -q 'jekyll serve'; then
   echo "Jekyll is currently running. Stop jekyll"
